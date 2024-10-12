@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {  Box, Paper, InputBase, IconButton, Avatar, Typography } from '@mui/material';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/SideBar';
 import Dashboard from './components//Dashboard';
 import { PropertyProvider } from './context/PropertyContext';
 import Topbar from './components/Topbar';
